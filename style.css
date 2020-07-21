@@ -1,0 +1,76 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+   
+}
+/* ?? */
+*{
+    box-sizing: border-box;
+}
+
+.menu-container{
+    height:20px;
+    border: 1px solid;
+    display:flex;
+    width :200px;
+    justify-content: space-around;
+}
+.menu{
+
+}
+.menu-options{
+    display: flex;
+    width: 279px;
+    justify-content: space-around;
+    height: 100px;
+}
+.menu-option-container{
+    border: 1px solid red;
+    height: 60px;
+
+}
+.formula-container{
+    height: 30px;
+    border: 1px solid red;
+}
+
+.cell-container{
+    
+    background-color: lightgreen;
+    overflow: auto;
+    height: 100vh;
+    position: relative;
+}
+.row .cell,.top-row .cell{
+    border: 1px solid;
+    min-width: 80px;
+    text-align: center;
+    min-height: 25px;
+    max-width: 80px;
+}
+
+.row{
+ display: flex; 
+}
+.tl-cell{
+    width: 25px;
+    height: 25px;
+    background-color: green;
+}
+.top-row {
+    position: absolute;
+    display: flex;
+    top: 0px;
+    left:25px;
+}
+.left-col .cell{
+    border: 1px solid;
+    width:25px;
+height:25px;
+background-color: green;
+}
+.grid{
+    position: absolute;
+    top:25px;
+    left:25px;
+}
